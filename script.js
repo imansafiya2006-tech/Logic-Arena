@@ -6,4 +6,5 @@ const guessInput = document.getElementById("guessInput");
 const submitBtn = document .getElementById("submitBtn");
 const feedback =document .getElementById("feedback");
 const attemptsDisplay =document .getElementById("attempts");
+const resetBtn =document .getElementById("resetBtn")
 
