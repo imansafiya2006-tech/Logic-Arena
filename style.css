@@ -8,15 +8,15 @@ body{
 .game{
     background-color:plum;
     padding:30px 40px;
-    border-radius: 20px;
-    box-shadow: 0 10px 40px rgba(0, 0, 0.5);
+    border-radius: 30px;
+    box-shadow: 0 10px 40px rgba(0,0,0.3);
     text-align: center;
     width: 400px;
 }
 .game:hover{
     transform: scale(1.03);
     box-shadow: 0 6px 20px rgba(0,0,0.3);
-    transition: transform 0.3s; box-shadow:0.3s;
+    transition: transform 0.3s, box-shadow:0.3s;
     cursor: pointer;
 }
 .game h1 {
@@ -30,7 +30,7 @@ body{
     font-size:16px;
     margin-bottom: 15px;
     border-radius: 16px;
-    border: 1px 
+    border: 1px solid #999;
 }
 button{
     padding: 20px;
@@ -45,6 +45,7 @@ button{
 }
 button:hover{
     background-color: black;
+    color: palevioletred;
 }
 #feedback{
     margin: 5px 0;
