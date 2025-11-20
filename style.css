@@ -3,13 +3,13 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color:black;
+    background-color:rgb(121, 45, 121);
 }
 .game{
-    background-color:#1a1a1a;
+    background-color:plum;
     padding:30px 40px;
     border-radius: 20px;
-    box-shadow: 0 0 25px rgba(0, 234, 255 ,0.2);
+    box-shadow: 0 10px 40px rgba(0, 0, 0.5);
     text-align: center;
     width: 400px;
 }
@@ -20,7 +20,7 @@ body{
     cursor: pointer;
 }
 .game h1 {
-    color:#00eaff;
+    color:black;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -29,6 +29,28 @@ body{
     padding:10px;
     font-size:16px;
     margin-bottom: 15px;
-    border-radius: 6px;
-    border: 1px solid #ccc;
+    border-radius: 16px;
+    border: 1px 
+}
+button{
+    padding: 20px;
+    font-size: 20px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color:#f2f2f2;
+    color: purple;
+    transition: background-color 0.3s;
+}
+button:hover{
+    background-color: black;
+}
+#feedback{
+    margin: 5px 0;
+    font-weight: bold;
+    color:#555;
+}
+#attempts{
+    font-weight: 600;
 }
