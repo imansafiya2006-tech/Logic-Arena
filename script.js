@@ -11,7 +11,7 @@ const resetBtn =document .getElementById("resetBtn");
 
 function checkGuess() {
     const userGuess = Number(guessInput.value);
-    if(!userGuess =|| < 1 || userguess > 50) {
+    if(!userGuess || < 1 || userguess > 50) {
 
     }
 }
