@@ -1,0 +1,32 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e9e9e9;
+}
+.game{
+    background-color: palevioletred;
+    padding:30px 40px;
+    border-radius: 20px;
+    box-shadow:inset 0 0 10px rgba(0,0,0.3);
+    text-align: center;
+    width: 400px;
+}
+.game:hover{
+    transform: scale(1.03);
+    box-shadow: 0 6px 20px rgba(0,0,0.3);
+    transition: transform 0.3s; box-shadow:0.3s;
+    cursor: pointer;
+}
+.game h1 {
+    margin-bottom: 20px;
+    color: white;
+}
+#guessInput{
+    width:100px;
+    padding:10px;
+    font-size:16px;
+    margin-bottom:16px
+}
