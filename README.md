@@ -46,4 +46,7 @@ Display feedback
 -Clear input and feedback.
 
 
-#link:
+#link:file:///C:/Users/Admin/OneDrive/Desktop/Logic%20Arena/index.html
+
+https://imansafiya2006-tech.github.io/Logic-Arena/
+
